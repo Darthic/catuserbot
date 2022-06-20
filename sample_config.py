@@ -30,12 +30,12 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/TgCatUB/catuserbot"
+        "UPSTREAM_REPO", "https://github.com/Darthic/catuserbot"
     )
     # External plugins repo
     EXTERNAL_REPO = os.environ.get("EXTERNAL_REPO", None)
     if EXTERNAL_REPO and (EXTERNAL_REPO.lower() != "no") and not url(EXTERNAL_REPO):
-        EXTERNAL_REPO = "https://github.com/TgCatUB/CatPlugins"
+        EXTERNAL_REPO = "https://github.com/Darthic/CatPlugins"
     # if you need badcat plugins use the following vars
     BADCAT = os.environ.get("BADCAT", "no")
     BADCAT = bool(BADCAT and (BADCAT.lower() != "no"))
@@ -164,9 +164,9 @@ class Config(object):
     BOTLOG_CHATID = 0
     # extra plugins realted vars below  4
     EXTERNAL_REPOBRANCH = os.environ.get("EXTERNAL_REPOBRANCH", "main")
-    BADCAT_REPO = os.environ.get("BADCAT_REPO", "https://github.com/TgCatUB/CatPlugins")
+    BADCAT_REPO = os.environ.get("BADCAT_REPO", "https://github.com/Darthic/CatPlugins")
     if BADCAT_REPO and not url(BADCAT_REPO):
-        BADCAT_REPO = "https://github.com/TgCatUB/CatPlugins"
+        BADCAT_REPO = "https://github.com/Darthic/CatPlugins"
     BADCAT_REPOBRANCH = os.environ.get("BADCAT_REPOBRANCH", "badcat")
 
 
