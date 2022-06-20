@@ -12,7 +12,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.1.1"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "CatUserBot <https://github.com/TgCatUB/catuserbot>"
+__author__ = "CatUserBot <https://github.com/Darthic/catuserbot>"
 __copyright__ = f"CatUserBot Copyright (C) 2020 - 2021  {__author__}"
 
 catub.version = __version__
